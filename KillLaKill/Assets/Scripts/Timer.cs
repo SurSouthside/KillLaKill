@@ -80,14 +80,14 @@ public class Timer : MonoBehaviour {
 			int millisecondsI = (int)(time*100);
 
 			//adding on leading zeroes if needed
-			if(minutesI < 10f){
+			if(minutesI < 10){
 				minutes = "0"+minutesI.ToString();
 			}
 			else{
 				minutes = minutesI.ToString();
 			}
 			
-			if(secondsI < 10f){
+			if(secondsI < 10){
 				seconds = "0"+secondsI.ToString();
 			}
 			else{
